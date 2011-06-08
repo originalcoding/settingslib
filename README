@@ -1,0 +1,22 @@
+settingslib
+~~~~~~~~~~~
+
+Simple settings wrapper. No 'sections'. Supports settings loading
+from objects and .py files. Works with Python 2.4 and higher.
+
+
+>>> from settingslib import Settings
+>>> settings = Settings('settings')  # from module.
+>>> settings.A
+1
+>>> settings.get('SOME_OBJECT')
+'somemodule.some_object'
+>>> settings.get('SOME_OBJECT', imp=True)
+<SomeObject object at 0x...>
+>>> settings2 = Settings({'A': 1}, B=2)
+>>> settings2['B']
+2
+
+>>> settings.update(A=2, B=1)
+>>> settings.update({'A': 1, 'B': 2})
+
