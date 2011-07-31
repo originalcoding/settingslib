@@ -30,7 +30,7 @@ def import_attribute(name):
     or AttributeError if module or attribute does not exist.
     
     '''
-    i = name.rfind('.')
+    i = name.rfind(':')
     
     module, attr = name[:i], name[i+1:]
     mod = __import__(module, globals(), locals(), [attr])

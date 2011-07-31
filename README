@@ -10,7 +10,7 @@ from objects and .py files. Works with Python 2.4 and higher.
 >>> settings.A
 1
 >>> settings.get('SOME_OBJECT')
-'somemodule.some_object'
+'somemodule:some_object'
 >>> settings.get('SOME_OBJECT', imp=True)
 <SomeObject object at 0x...>
 >>> settings2 = Settings({'A': 1}, B=2)

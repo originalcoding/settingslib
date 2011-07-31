@@ -34,7 +34,7 @@ def test_getting(tmpdir, monkeypatch):
     module = module_dir.join(module_name + '.py')
     module.write('obj = {\'foo\': \'bar\'}')
     monkeypatch.syspath_prepend(str(module_dir))
-    setting_name, setting_value = 'OBJ_FROM_OTHER_MODULE', module_name + '.obj'
+    setting_name, setting_value = 'OBJ_FROM_OTHER_MODULE', module_name + ':obj'
     
     settings2 = Settings({setting_name: setting_value})
     assert settings2.get(setting_name, imp=True) == {'foo': 'bar'}
