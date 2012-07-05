@@ -1,7 +1,7 @@
 '''Settings wrapper.'''
 
 
-__version__ = '0.7.1'
+__version__ = '0.8.0'
 __author__ = 'Pavlo Kapyshin'
 __email__ = 'i@93z.org'
 
