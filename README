@@ -2,7 +2,7 @@ settingslib
 ~~~~~~~~~~~
 
 Simple settings wrapper. No 'sections'. Supports settings loading
-from objects and .py files. Works with Python 2.4 and higher.
+from objects and .py files. Works with Python 2.5 and higher.
 
 
 >>> from settingslib import Settings
