@@ -17,7 +17,7 @@ setup(
     author_email=__email__,
     license='New BSD',
     description=__doc__,
-    long_description=read('README'),
+    long_description=read('README.rst'),
     packages=['settingslib', ],
     url='http://github.com/kapishin/settingslib/',
     classifiers=[
