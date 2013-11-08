@@ -19,7 +19,7 @@ setup(
     description=__doc__,
     long_description=read('README.rst'),
     packages=['settingslib', ],
-    url='http://github.com/kapishin/settingslib/',
+    url='http://github.com/originalcoding/settingslib/',
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',

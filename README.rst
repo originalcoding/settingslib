@@ -235,16 +235,6 @@ Also you can add settings::
 Note that this did not modify original ``limits``.
 
 
-How to get help?
-================
-
-Email: i@93z.org.
-
-GitHub: http://github.com/kapishin/settingslib/.
-
-Also see `my notes about it <http://93z.org/settingslib/>`_.
-
-
 .. |lib| replace:: ``settingslib``
 .. |cls| replace:: ``settingslib.Settings``
 
